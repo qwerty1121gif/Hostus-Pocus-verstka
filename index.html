@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostus Pocus - Reliable Hosting</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+        <nav>
+            <a href="#pricing" class="btn btn-dark">Pricing</a>
+            <a href="#features" class="btn btn-dark">Features</a>
+            <a href="#contact" class="btn btn-dark">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Hostus Pocus</h1>
+            <p>Day 194 / 365 project365.design</p>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h2>Our Plans & Pricing</h2>
+            <div class="plans-grid">
+                <!-- Repeat for each plan -->
+                <article class="plan-card">
+                    <h3>SHARED HOSTING</h3>
+                    <div class="price">$19.99</div>
+                    <a href="#contact" class="btn btn-dark">Get Started</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="features-grid">
+                <!-- Feature cards -->
+                <article class="plan-card">
+                    <h3>Secure Hosting</h3>
+                    <p>Enterprise-grade security measures</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>© 2023 Hostus Pocus</p>
+                <p>support@hostuspocus.com</p>
+            </div>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
