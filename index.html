@@ -3,72 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hostus Pocus - Reliable Hosting</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Hostus Pocus - Professional Hosting</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"></a>
+        <div class="logo">Hostus Pocus</div>
         <nav>
-            <a href="#pricing" class="btn btn-dark">Pricing</a>
-            <a href="#features" class="btn btn-dark">Features</a>
-            <a href="#contact" class="btn btn-dark">Sign Up</a>
+            <ul class="nav-links">
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
         </nav>
+        <a href="#" class="get-started-btn">Get Started</a>
     </header>
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container">
+            <h1 class="hero-title">Create. Deploy. Rest</h1>
+            <p class="hero-subtitle">HocusProcess is your ultimate solution for all hosting needs, it combines global deploy</p>
+            <a href="#" class="btn btn-primary">Get Started for Free</a>
+        </div>
+    </section>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Hostus Pocus</h1>
-            <p>Day 194 / 365 project365.design</p>
-        </section>
-
-        <section id="pricing" class="pricing-section">
-            <h2>Our Plans & Pricing</h2>
-            <div class="plans-grid">
-                <!-- Repeat for each plan -->
-                <article class="plan-card">
-                    <h3>SHARED HOSTING</h3>
-                    <div class="price">$19.99</div>
-                    <a href="#contact" class="btn btn-dark">Get Started</a>
-                </article>
-            </div>
-        </section>
-
-        <section id="features" class="features-section">
+    <!-- Features -->
+    <section class="features-section">
+        <div class="container">
             <div class="features-grid">
-                <!-- Feature cards -->
-                <article class="plan-card">
-                    <h3>Secure Hosting</h3>
-                    <p>Enterprise-grade security measures</p>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer id="contact">
-        <div class="footer-content">
-            <div class="contact-info">
-                <p>© 2023 Hostus Pocus</p>
-                <p>support@hostuspocus.com</p>
-            </div>
-            <div class="social-links">
-                <a href="https://facebook.com" target="_blank">Facebook</a>
-                <a href="https://twitter.com" target="_blank">Twitter</a>
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <div class="feature-card">
+                    <h3><i class="fas fa-shield-alt"></i> Secure</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-headset"></i> 24x7 Quality Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-certificate"></i> 99.9% SLA Guarantee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                </div>
+                <div class="feature-card">
+                    <h3><i class="fas fa-certificate"></i> 12 years in the business</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                </div>
             </div>
         </div>
-    </footer>
+    </section>
 
-    <script>
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <!-- Pricing -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2>Our Plans & Pricing</h2>
+            <p class="text-center">Free Setup on all plans. No credit cost required</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>SHARED HOSTING</h3>
+                    <div class="price-tag">$19.99</div>
+                    <p>For businesses & freelancers</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+                
+                <!-- Repeat for other plans -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial-section">
+        <div class="container">
+            <blockquote>
+                "Donec facilisis tortor ut augue lacinia, at viverra est semper."
+                <cite>- Arthur Payne, New York</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed by Ribrose.net | Not for Reuse</p>
+            <p>BSCM FreeBe</p>
+        </div>
+    </footer>
 </body>
 </html>
